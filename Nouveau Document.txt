@@ -1,0 +1,82 @@
+html 
+
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Travaux Express</title> 
+  <style> 
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      background: #f4f4f4; 
+    } 
+    .container { 
+      max-width: 600px; 
+      margin: auto; 
+      padding: 20px; 
+      background: white; 
+    } 
+    h1, h2 { 
+      color: #333; 
+      text-align: center; 
+    } 
+    p { 
+      text-align: center; 
+      color: #555; 
+    } 
+    form { 
+      display: flex; 
+      flex-direction: column; 
+    } 
+    input, textarea, select { 
+      padding: 10px; 
+      margin: 10px 0; 
+      border: 1px solid #ccc; 
+      border-radius: 5px; 
+    } 
+    button { 
+      background: #007BFF; 
+      color: white; 
+      padding: 12px; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+    } 
+    button:hover { 
+      background: #0056b3; 
+    } 
+    footer { 
+      text-align: center; 
+      margin-top: 40px; 
+      font-size: 0.9em; 
+      color: #777; 
+    } 
+  </style> 
+</head> 
+<body> 
+  <div class="container"> 
+    <h1>Travaux Express</h1> 
+    <p>L’application mobile qui connecte clients et artisans en toute simplicité.</p> 
+ 
+    <h2>Inscription partenaire</h2> 
+    <form action="https://formspree.io/f/ton-form-id" method="POST"> 
+      <input type="text" name="nom" placeholder="Nom / Prénom" required> 
+      <input type="text" name="entreprise" placeholder="Nom de l’entreprise"> 
+      <input type="text" name="metier" placeholder="Métier / Spécialité" required> 
+      <input type="text" name="zone" placeholder="Zone d’intervention" required> 
+      <input type="email" name="email" placeholder="Email" required> 
+      <input type="tel" name="telephone" placeholder="Téléphone"> 
+      <label><input type="checkbox" name="newsletter"> Je souhaite être informé des nouveautés</label> 
+      <button type="submit">Envoyer ma demande</button> 
+    </form> 
+ 
+    <footer> 
+      📧 travauxexpress@laposte.net | 📱 +33 7 69 30 27 25<br> 
+      Mentions légales | Politique de confidentialité | CGU 
+    </footer> 
+  </div> 
+</body> 
+</html>
