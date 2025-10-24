@@ -63,7 +63,7 @@ html
  
     <h2>Inscription partenaire</h2> 
     <form action="
-       https://buy.stripe.com/test_8x24gA05X1G862WgwZfQI00> 
+https://buy.stripe.com/test_8x24gA05X1G862WgwZfQI00> 
       <input type="text" name="nom" placeholder="Nom / Prénom" required> 
       <input type="text" name="entreprise" placeholder="Nom de l’entreprise"> 
       <input type="text" name="metier" placeholder="Métier / Spécialité" required> 
@@ -82,3 +82,4 @@ html
 </body> 
 
 </html>
+
