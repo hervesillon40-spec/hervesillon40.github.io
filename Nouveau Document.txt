@@ -62,7 +62,8 @@ html
     <p>L’application mobile qui connecte clients et artisans en toute simplicité.</p> 
  
     <h2>Inscription partenaire</h2> 
-    <form action="https://formspree.io/f/ton-form-id" method="POST"> 
+    <form action="
+       https://buy.stripe.com/test_8x24gA05X1G862WgwZfQI00> 
       <input type="text" name="nom" placeholder="Nom / Prénom" required> 
       <input type="text" name="entreprise" placeholder="Nom de l’entreprise"> 
       <input type="text" name="metier" placeholder="Métier / Spécialité" required> 
@@ -79,4 +80,5 @@ html
     </footer> 
   </div> 
 </body> 
+
 </html>
